@@ -1,0 +1,44 @@
+name: Node CI for push on main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'pull_request' }}
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout [main]
+        with:
+          fetch-depth: 0
+      - uses: actions/cache@v2
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v2
+      - name: Use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Install
+        run: npm ci
+        env:
+          CI: true
+      - name: Start NX Cloud CI
+        run: npx nx-cloud start-ci-run
+      - name: Build
+        run: npm run build:ci
+        env:
+          CI: true
+      - name: Test
+        run: npm run test:ci
+        env:
+          CI: true
+      - name: Stop NX Cloud agents
+        run: npx nx-cloud stop-all-agents

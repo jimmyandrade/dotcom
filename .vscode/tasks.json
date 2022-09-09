@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build site",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": ["$eslint-stylish"]
+    },
+    {
+      "label": "Install project dependencies",
+      "type": "npm",
+      "script": "install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start development server",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": ["$eslint-stylish"]
+    }
+  ]
+}

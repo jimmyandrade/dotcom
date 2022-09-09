@@ -1,0 +1,15 @@
+---
+backend:
+  branch: main
+  cms_label_prefix: content/
+  display_url: "https://jimmyandrade.com"
+  locale: "pt-br"
+  # @type git-gateway|test-repo
+  name: test-repo
+  site_domain: "https://jimmyandrade.netlify.app"
+  site_url: "https://jimmyandrade.com"
+collections:
+logo_url: https://jimmyandrade.com/media/logo.png
+media_folder: media
+# public_folder: media
+publish_mode: editorial_workflow

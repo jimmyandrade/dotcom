@@ -1,0 +1,20 @@
+{
+  "name": "jimmyandrade/dotcom",
+  "type": "project",
+  "description": "JimmyAndrade.com React website",
+  "homepage": "https://jimmyandrade.com/",
+  "authors": [
+    {
+      "name": "Jimmy Andrade",
+      "email": "composer@jimmyandrade.com",
+      "homepage": "https://github.com/jimmyandrade"
+    }
+  ],
+  "keywords": [
+    "jimmyandrade",
+    "jimmy"
+  ],
+  "support": {
+    "issues": "https://github.com/jimmyandrade/dotcom/issues"
+  }
+}

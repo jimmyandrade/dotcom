@@ -1,0 +1,26 @@
+[build]
+  base = "/"
+
+[[redirects]]
+  from = "http://jimmyandrade.com.br"
+  to = "https://jimmyandrade.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://jimmyandrade.com.br"
+  to = "https://jimmyandrade.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://jimmyandrade.com"
+  to = "https://jimmyandrade.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://jimmyandrade.netlify.com"
+  to = "https://jimmyandrade.com"
+  status = 301
+  force = true

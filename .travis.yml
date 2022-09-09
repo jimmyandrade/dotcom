@@ -1,0 +1,24 @@
+---
+language: node_js
+os: linux
+dist: xenial
+node_js:
+  - lts/*
+git:
+  quiet: true
+cache:
+  directories:
+    - $HOME/.cache/yarn
+    - node_modules
+    - .next/cache
+before_install:
+  - "sudo apt-get update"
+install:
+  - "yarn"
+jobs:
+  include:
+    - stage: test
+      name: "Build and test"
+      if: type = push AND branch = main
+      script:
+        - "yarn test"

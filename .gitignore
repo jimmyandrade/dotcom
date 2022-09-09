@@ -1,10 +1,16 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/libpeerconnection.log
 lerna-debug.log*
+logs
+npm-debug.log
+npm-debug.log*
+testem.log
+yarn-debug.log*
+yarn-error.log
+yarn-error.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -20,6 +26,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+/coverage
 *.lcov
 
 # nyc test coverage
@@ -43,6 +50,7 @@ jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
+/typings
 
 # TypeScript cache
 *.tsbuildinfo
@@ -70,23 +78,30 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.local
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# Next.js build output
+# Next.js
 .next
 
-# Nuxt.js build / generate output
+# Public folder
+public/config.yml
+!public/
+!public/admin
+
+# build / compiled / generate output
 .nuxt
+build
 dist
+out/
+/out-tsc
+/tmp
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
 
 # vuepress build output
 .vuepress/dist
@@ -102,3 +117,39 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDEs and editors
+!.idea
+*.launch
+*.sublime-workspace
+.classpath
+.c9/
+.idea/aws.xml
+.idea/workspace.xml
+.project
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# assets (copied from root assets folder)
+public/assets
+
+# Dreamweaver notes
+_notes
+
+# System Files
+.DS_Store
+Thumbs.db
+src/.DS_Store
+
+# Storybook static
+storybook-static/
+
+# misc
+/.sass-cache
+/connect.lock

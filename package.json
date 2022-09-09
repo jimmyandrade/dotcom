@@ -1,0 +1,95 @@
+{
+  "name": "jimmyandrade",
+  "displayName": "JimmyAndrade.com",
+  "description": "JimmyAndrade.com website built with React and Next.js",
+  "private": true,
+  "version": "0.9.1",
+  "scripts": {
+    "build": "nx build dotcom",
+    "build:ci": "CI=true npm run build -- --prod --verbose",
+    "start": "nx serve dotcom",
+    "test": "nx test dotcom",
+    "test:ci": "CI=true npm run test -- --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyandrade/dotcom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimmyandrade/dotcom/issues"
+  },
+  "keywords": [
+    "jimmyandrade",
+    "jimmy",
+    "dotcom",
+    "react"
+  ],
+  "author": {
+    "email": "package@jimmyandrade.com",
+    "name": "Jimmy Andrade Música e Publicidade Digital",
+    "url": "https://github.com/jimmyandrade"
+  },
+  "homepage": "https://jimmyandrade.com",
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@nrwl/cli": "14.5.7",
+    "@nrwl/cypress": "14.5.7",
+    "@nrwl/eslint-plugin-nx": "14.5.7",
+    "@nrwl/jest": "14.5.7",
+    "@nrwl/linter": "14.5.7",
+    "@nrwl/nx-cloud": "14.4.1",
+    "@nrwl/react": "14.5.7",
+    "@nrwl/tao": "14.5.7",
+    "@nrwl/web": "14.5.7",
+    "@nrwl/workspace": "14.5.7",
+    "@testing-library/react": "13.3.0",
+    "@types/jest": "28.1.6",
+    "@types/node": "18.7.5",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/react-is": "17.0.3",
+    "@types/styled-components": "5.1.26",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "babel-jest": "28.1.3",
+    "babel-plugin-styled-components": "2.0.7",
+    "cypress": "10.4.0",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-cypress": "2.12.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "28.1.3",
+    "nx": "14.5.7",
+    "prettier": "2.7.1",
+    "react-test-renderer": "18.2.0",
+    "ts-jest": "28.0.7",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4",
+    "webpack": "5.74.0"
+  },
+  "dependencies": {
+    "@nrwl/next": "14.5.7",
+    "classnames": "2.3.1",
+    "core-js": "3.24.1",
+    "gray-matter": "4.0.3",
+    "next": "12.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "18.2.0",
+    "regenerator-runtime": "0.13.9",
+    "remark": "14.0.2",
+    "remark-html": "15.0.1",
+    "styled-components": "5.3.5",
+    "tslib": "2.4.0"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/dotcom"
+    ]
+  }
+}
+

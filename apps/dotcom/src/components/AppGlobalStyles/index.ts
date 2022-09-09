@@ -1,0 +1,1 @@
+export { AppGlobalStyles } from "./AppGlobalStyles";

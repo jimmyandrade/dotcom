@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/storybook-static" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/react-components/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/style-dictionary/build" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/style-dictionary/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/web-components/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/web-components/loader" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/web-components/www" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/web-components/www/build" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/jimmyandrade.com/packages/web/.next" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/public/assets/images/albums" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/assets/images/_notes" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/assets/assets/images/_notes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="14574125" level="application" />
+    <orderEntry type="library" name="netlify-identity-widget" level="application" />
+    <orderEntry type="library" name="netlify-cms" level="application" />
+    <orderEntry type="library" name="netlify-cms" level="application" />
+    <orderEntry type="library" name="netlify-identity-widget" level="application" />
+    <orderEntry type="library" name="netlify-identity-widget" level="application" />
+    <orderEntry type="library" name="netlify-cms" level="application" />
+  </component>
+</module>

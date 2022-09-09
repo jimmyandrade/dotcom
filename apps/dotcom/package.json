@@ -1,0 +1,21 @@
+{
+  "name": "@jimmyandrademusic/dotcom",
+  "version": "0.0.0",
+  "displayName": "dotcom",
+  "description": "Package for main website (created on Next)",
+  "cacheDirectories": [
+    "node_modules/",
+    ".next/cache/"
+  ],
+  "files": [
+    ".next/",
+    "public/",
+    "src/"
+  ],
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "lint": "next lint",
+    "prebuild": "cp public/admin/config.yml public/config.yml"
+  },
+  "source": "./src/pages/index.tsx"
+}
