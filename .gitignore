@@ -153,3 +153,7 @@ storybook-static/
 # misc
 /.sass-cache
 /connect.lock
+
+# yarn lock
+!package-lock.json
+yarn.lock
