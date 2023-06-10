@@ -18,6 +18,7 @@
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/public/assets/images/albums" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/assets/images/_notes" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/.old2/assets/assets/images/_notes" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/dev/.next" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
