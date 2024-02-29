@@ -2,7 +2,7 @@ repo_name: jimmyandrade/dotcom
 report_id: f5e5035fe112037108c7ef37de9c30bc
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:53:17+00:00'
+timestamp: '2024-02-29T18:36:26+00:00'
 requested_by: jimmyandrade
 provider: github
 branch: main
@@ -31,7 +31,7 @@ tools:
   detection_source_url: https://github.com/jimmyandrade/dotcom
   detection_source: Repo Metadata
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 12.2.4
   open_source: true
@@ -176,7 +176,7 @@ tools:
   last_updated_by: Jimmy Andrade
   last_updated_on: 2022-09-09 16:42:12.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.7.1
   license: MIT
